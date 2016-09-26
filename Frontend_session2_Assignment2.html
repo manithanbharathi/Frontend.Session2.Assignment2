@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HTML Basic Tags </title>
+	<style>
+	div 
+	{
+		background-color: white;
+		width: 320px;
+		border: 1px solid black;
+		padding: 25px;
+		margin: 25px;
+	}
+	</style>
+</head>
+<body>
+	<div> Your Details:
+		<br>
+		<br>
+		<form method = "post">
+			<label> Name: </label>
+			<input type = "text" name="username">
+		</form>
+		<form method = "post">
+			<label> Email: </label>
+			<input type = "text" name="email">
+		</form>
+	</div>
+	<div> Your review:
+		<br>
+		<br>
+		<form method = "post">
+		How did you hear about us? 
+		<select> <option value="google">Google</option> </select> <br>
+		<br> Would You visit again? <br>
+		<input type ="radio" value = "Yes"> Yes <input type ="radio" value = "no"> No <input type ="radio" value = "may be"> Maybe
+		<br>
+		<br>
+		Comments: <br>
+		<textarea rows="4" cols="38">
+		</textarea>
+		<br>
+		<input type = "checkbox" value="yes" checked> Sign me for email updates <br>
+		<button> Submit review </button>
+		</form>
+		
+	</div>
+</body>
+</html> 
